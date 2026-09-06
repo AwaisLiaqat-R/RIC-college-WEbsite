@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riphah International College | Intermediate Admissions 2026 (F.Sc, ICS, I.Com)</title>
+  <meta name="description" content="Official Admissions Portal for 1st Year & 2nd Year Intermediate at Riphah International College. F.Sc. Pre-Medical, Pre-Engineering, ICS, I.Com with 100% Merit Scholarships and free MDCAT/ECAT coaching.">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Cinematic Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Main Navigation Header -->
+  <header class="main-header" id="mainHeader">
+    <div class="container">
+      <nav class="navbar">
+        <a href="#hero" class="brand-logo">
+          <div class="logo-crest">R</div>
+          <div>
+            <div class="logo-name">Riphah <span>College</span></div>
+            <div class="logo-tagline">Higher Secondary Division (HSSC)</div>
+          </div>
+        </a>
+
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#programs" class="nav-link">Disciplines</a></li>
+          <li><a href="#calculator" class="nav-link">Scholarship Estimator</a></li>
+          <li><a href="#campus" class="nav-link">Facilities & Labs</a></li>
+          <li><a href="#admissions" class="nav-link">Admissions 2026</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-cta-group">
+          <button class="btn btn-outline btn-sm" onclick="openPortalModal()">
+            <i class="fas fa-shield-alt"></i> Student Portal
+          </button>
+          <a href="#admissions" class="btn btn-gold btn-sm">
+            <i class="fas fa-bolt"></i> Apply 1st Year
+          </a>
+          <button class="mobile-toggle-btn" id="mobileToggle" aria-label="Toggle Navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section (Cinematic Visual Experience) -->
+  <section class="hero-section" id="hero">
+    <div class="hero-bg-container">
+      <img src="assets/hero_campus.png" alt="Riphah College Campus" class="hero-bg-img">
+      <div class="hero-overlay"></div>
+      <div class="hero-light-beam"></div>
+    </div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge-pill">
+          <span class="live-dot"></span> 1st Year (11th) & 2nd Year (12th) Admissions Open 2026
+        </div>
+        
+        <h1 class="hero-title">
+          Shaping Future Leaders in <br>
+          <span class="title-gradient">Intermediate Education</span>
+        </h1>
+        
+        <p class="hero-lead">
+          Join Riphah International College for F.Sc Pre-Medical, Pre-Engineering, ICS, and I.Com. Experience top board exam preparation, world-class practical labs, and comprehensive MDCAT & ECAT entry test training.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#programs" class="btn btn-gold">
+            <i class="fas fa-compass"></i> Explore Academic Groups
+          </a>
+          <a href="#calculator" class="btn btn-outline">
+            <i class="fas fa-calculator"></i> Calculate Matric Scholarship
+          </a>
+        </div>
+
+        <div class="hero-features-strip">
+          <div class="hero-feature-item">
+            <i class="fas fa-trophy"></i> FBISE & BISE Top Rank Coaching
+          </div>
+          <div class="hero-feature-item">
+            <i class="fas fa-award"></i> Up to 100% Merit Fee Waiver
+          </div>
+          <div class="hero-feature-item">
+            <i class="fas fa-stethoscope"></i> Free MDCAT / ECAT Prep
+          </div>
+          <div class="hero-feature-item">
+            <i class="fas fa-flask"></i> Modern Practical Labs
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cinematic Stats Ribbon -->
+  <section class="stats-bar">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-icon"><i class="fas fa-medal"></i></div>
+          <div class="stat-number"><span>Top 10</span></div>
+          <div class="stat-label">Board Positions (FBISE & BISE)</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon"><i class="fas fa-gift"></i></div>
+          <div class="stat-number"><span>100%</span></div>
+          <div class="stat-label">Free Education for 90%+ Matric Marks</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon"><i class="fas fa-user-graduate"></i></div>
+          <div class="stat-number"><span>10,000+</span></div>
+          <div class="stat-label">Successful Intermediate Alumni</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon"><i class="fas fa-microchip"></i></div>
+          <div class="stat-number"><span>4+</span></div>
+          <div class="stat-label">Advanced High-Tech Science & CS Labs</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Academic Highlights / Trust Bar -->
+  <section class="highlights-strip">
+    <div class="container">
+      <div class="badges-showcase-grid">
+        <div class="badge-card">
+          <div class="badge-card-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+          <div class="badge-card-title">Concept-First Faculty</div>
+          <div class="badge-card-desc">Renowned college professors specialized in FBISE / BISE paper marking patterns.</div>
+        </div>
+        <div class="badge-card">
+          <div class="badge-card-icon"><i class="fas fa-vial"></i></div>
+          <div class="badge-card-title">100% Practical Labs</div>
+          <div class="badge-card-desc">Individual equipment workstations for Physics, Chemistry, Biology & Coding.</div>
+        </div>
+        <div class="badge-card">
+          <div class="badge-card-icon"><i class="fas fa-bullseye"></i></div>
+          <div class="badge-card-title">Entry Test Integration</div>
+          <div class="badge-card-desc">Weekly Sunday grand tests and past-paper drills for MDCAT, ECAT, FAST & NUST.</div>
+        </div>
+        <div class="badge-card">
+          <div class="badge-card-icon"><i class="fas fa-users"></i></div>
+          <div class="badge-card-title">Dedicated Campuses</div>
+          <div class="badge-card-desc">Separate campuses and secure transport network for boys and girls.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programs / Groups Section -->
+  <section class="section-padding" id="programs">
+    <div class="ambient-glow" style="top: 20%; left: -10%;"></div>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle"><i class="fas fa-book-open"></i> HSSC Academic Disciplines</span>
+        <h2 class="section-title">1st Year & 2nd Year <span>Offerings</span></h2>
+        <p class="section-description">Select your intermediate discipline designed to build strong fundamentals for high-ranking university admissions.</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="program-tabs">
+        <button class="tab-btn active" onclick="renderPrograms('all', this)"><i class="fas fa-th-large"></i> All Disciplines</button>
+        <button class="tab-btn" onclick="renderPrograms('fsc', this)"><i class="fas fa-dna"></i> F.Sc. (Med / Engg)</button>
+        <button class="tab-btn" onclick="renderPrograms('ics', this)"><i class="fas fa-laptop-code"></i> ICS (Computer Science)</button>
+        <button class="tab-btn" onclick="renderPrograms('icom', this)"><i class="fas fa-chart-line"></i> I.Com (Commerce)</button>
+        <button class="tab-btn" onclick="renderPrograms('fa', this)"><i class="fas fa-palette"></i> F.A. (Arts)</button>
+      </div>
+
+      <div class="programs-grid" id="programsGrid">
+        <!-- Dynamically rendered by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Matric Scholarship Calculator Section (Command Center) -->
+  <section class="section-padding calc-section-wrapper" id="calculator">
+    <div class="ambient-glow" style="bottom: 10%; right: -5%;"></div>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle"><i class="fas fa-percentage"></i> Merit-Based Aid</span>
+        <h2 class="section-title">Matric Scholarship <span>Estimator</span></h2>
+        <p class="section-description">Celebrate your academic excellence in Matric. Slide your marks below to unlock instant fee concession for 11th and 12th grade.</p>
+      </div>
+
+      <div class="calc-box">
+        <div>
+          <div class="calc-slider-card">
+            <label class="form-label" style="font-size: 1.05rem; display: flex; justify-content: space-between; align-items: center;">
+              <span><i class="fas fa-award text-gold"></i> Your Obtained Marks in Matric (Out of 1100)</span>
+            </label>
+            
+            <div class="range-slider-wrapper">
+              <input type="range" id="calcMatricMarks" class="cinematic-range" min="600" max="1100" step="5" value="990">
+            </div>
+
+            <div class="marks-display-pill">
+              <span style="color: var(--slate-300); font-size: 0.95rem;">Calculated Percentage:</span>
+              <div class="marks-current-text" id="calcMatricVal">990 / 1100 (90.0%)</div>
+            </div>
+
+            <div class="preset-marks-btns">
+              <span style="font-size: 0.8rem; color: var(--slate-400); width: 100%; margin-bottom: 0.2rem;">Quick Mark Presets:</span>
+              <button class="preset-btn" onclick="setSliderMarks(1050)">1050+ (100% Free)</button>
+              <button class="preset-btn" onclick="setSliderMarks(960)">960+ (75% Off)</button>
+              <button class="preset-btn" onclick="setSliderMarks(890)">890+ (50% Off)</button>
+              <button class="preset-btn" onclick="setSliderMarks(780)">780+ (30% Off)</button>
+            </div>
+          </div>
+
+          <div class="scholarship-tiers-grid">
+            <div class="tier-badge-item" id="tier-100">
+              <i class="fas fa-crown"></i>
+              <div>
+                <strong>90%+ Marks</strong>
+                <div style="font-size: 0.75rem; color: var(--gold-400);">100% Free Education</div>
+              </div>
+            </div>
+            <div class="tier-badge-item" id="tier-75">
+              <i class="fas fa-medal"></i>
+              <div>
+                <strong>85% - 89.9% Marks</strong>
+                <div style="font-size: 0.75rem; color: var(--gold-400);">75% Fee Concession</div>
+              </div>
+            </div>
+            <div class="tier-badge-item" id="tier-50">
+              <i class="fas fa-star"></i>
+              <div>
+                <strong>80% - 84.9% Marks</strong>
+                <div style="font-size: 0.75rem; color: var(--gold-400);">50% Fee Concession</div>
+              </div>
+            </div>
+            <div class="tier-badge-item" id="tier-30">
+              <i class="fas fa-check-circle"></i>
+              <div>
+                <strong>70% - 79.9% Marks</strong>
+                <div style="font-size: 0.75rem; color: var(--gold-400);">30% Fee Concession</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="calc-result-pod">
+          <span class="badge badge-gold"><i class="fas fa-sparkles"></i> Your Guaranteed Concession</span>
+          <div class="scholarship-val-big" id="scholarshipPct">100%</div>
+          <p style="color: var(--slate-300); font-weight: 600; font-size: 1.05rem;" id="scholarshipStatusText">Full 100% Tuition Fee Waiver Granted!</p>
+
+          <div class="fee-breakdown-card">
+            <div class="fee-row">
+              <span>Standard Monthly Fee:</span>
+              <span id="baseMonthlyFee">PKR 8,500 / mo</span>
+            </div>
+            <div class="fee-row">
+              <span>Merit Discount Applied:</span>
+              <span style="color: #22c55e;" id="discountMonthlyFee">- PKR 8,500 / mo</span>
+            </div>
+            <div class="fee-row total">
+              <span>Net Monthly Payable:</span>
+              <span id="netMonthlyFee">FREE EDUCATION</span>
+            </div>
+          </div>
+
+          <a href="#admissions" class="btn btn-gold" style="width: 100%;">
+            <i class="fas fa-file-signature"></i> Claim Scholarship & Apply Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Facilities & Labs Showcase -->
+  <section class="section-padding" id="campus">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle"><i class="fas fa-building"></i> World-Class Infrastructure</span>
+        <h2 class="section-title">Labs & Campus <span>Facilities</span></h2>
+        <p class="section-description">Immerse yourself in modern, fully equipped physics, chemistry, biology and computer laboratories strictly aligned with the FBISE / BISE curriculum.</p>
+      </div>
+
+      <div class="campus-grid">
+        <div class="campus-card">
+          <div class="campus-img-wrap">
+            <img src="assets/science_lab.png" alt="Science Laboratory" class="campus-img">
+            <div class="campus-vignette"></div>
+            <div class="campus-floating-tag">FBISE Standard</div>
+          </div>
+          <div class="campus-body">
+            <div>
+              <h3 class="campus-title">Science Laboratories</h3>
+              <p class="campus-desc">Fully operational Physics, Chemistry, and Biology practical labs equipped with modern apparatus, optical benches, and fume hoods.</p>
+            </div>
+            <div class="campus-features-list">
+              <span><i class="fas fa-check-circle"></i> Individual workstations for each student</span>
+              <span><i class="fas fa-check-circle"></i> Supervised by seasoned lab demonstrators</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="campus-card">
+          <div class="campus-img-wrap">
+            <img src="assets/campus_library.png" alt="ICS Computer Lab" class="campus-img">
+            <div class="campus-vignette"></div>
+            <div class="campus-floating-tag">High Performance</div>
+          </div>
+          <div class="campus-body">
+            <div>
+              <h3 class="campus-title">ICS Computer Labs & E-Library</h3>
+              <p class="campus-desc">Dedicated Core-i7 networked computer stations for C++, Python, and Database practicals along with an extensive reference library.</p>
+            </div>
+            <div class="campus-features-list">
+              <span><i class="fas fa-check-circle"></i> High-speed broadband & digital library access</span>
+              <span><i class="fas fa-check-circle"></i> Past board practical software suites</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="campus-card">
+          <div class="campus-img-wrap">
+            <img src="assets/student_life.png" alt="MDCAT & ECAT Coaching" class="campus-img">
+            <div class="campus-vignette"></div>
+            <div class="campus-floating-tag">Entry Test Hub</div>
+          </div>
+          <div class="campus-body">
+            <div>
+              <h3 class="campus-title">MDCAT & ECAT Coaching Wing</h3>
+              <p class="campus-desc">Integrated entry test training with Sunday grand tests, high-yield conceptual question banks, and negative marking practice.</p>
+            </div>
+            <div class="campus-features-list">
+              <span><i class="fas fa-check-circle"></i> Free of cost for enrolled college students</span>
+              <span><i class="fas fa-check-circle"></i> Comprehensive test series & analytics</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Admissions 2026 VIP Registration Terminal -->
+  <section class="section-padding admissions-section-wrap" id="admissions">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle"><i class="fas fa-paper-plane"></i> Fast-Track Enrollment</span>
+        <h2 class="section-title">Intermediate <span>Admission Form 2026</span></h2>
+        <p class="section-description">Fill out the official online form below to reserve your seat and claim your Matric merit scholarship.</p>
+      </div>
+
+      <div class="form-card">
+        <div class="form-card-header">
+          <span class="badge badge-gold" style="margin-bottom: 0.75rem;">Official Application</span>
+          <h3 class="form-card-title">HSSC 1st & 2nd Year Registration</h3>
+          <p style="color: var(--slate-400); font-size: 0.95rem;">Sessions 2026 - 2028 | Morning & Evening Batches</p>
+        </div>
+
+        <form onsubmit="submitForm(event)">
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label">Student Full Name *</label>
+              <div class="input-with-icon">
+                <i class="fas fa-user"></i>
+                <input type="text" id="studentName" class="form-input" placeholder="e.g. Muhammad Ali" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Father / Guardian Name *</label>
+              <div class="input-with-icon">
+                <i class="fas fa-user-friends"></i>
+                <input type="text" id="fatherName" class="form-input" placeholder="Father's Full Name" required>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label">Applying For *</label>
+              <div class="input-with-icon">
+                <i class="fas fa-calendar-alt"></i>
+                <select id="appYear" class="form-select">
+                  <option value="1st Year (11th Grade)">1st Year (11th Grade - Fresh Matric Pass)</option>
+                  <option value="2nd Year (12th Grade)">2nd Year (12th Grade - Migration / Transfer)</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Academic Discipline Group *</label>
+              <div class="input-with-icon">
+                <i class="fas fa-graduation-cap"></i>
+                <select id="appGroup" class="form-select">
+                  <option value="F.Sc. Pre-Medical">F.Sc. Pre-Medical</option>
+                  <option value="F.Sc. Pre-Engineering">F.Sc. Pre-Engineering</option>
+                  <option value="ICS (Computer Science)">ICS (Computer Science - Math/Physics/CS)</option>
+                  <option value="ICS (Stats/Math/CS)">ICS (Stats / Math / Computer Science)</option>
+                  <option value="I.Com (Commerce)">I.Com (Commerce & Banking)</option>
+                  <option value="F.A. (Arts & Humanities)">F.A. (Arts, Humanities & Design)</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label">Matric Roll Number / B-Form</label>
+              <div class="input-with-icon">
+                <i class="fas fa-id-badge"></i>
+                <input type="text" id="matricRoll" class="form-input" placeholder="e.g. 109823">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Education Board</label>
+              <div class="input-with-icon">
+                <i class="fas fa-university"></i>
+                <select id="eduBoard" class="form-select">
+                  <option>Federal Board (FBISE)</option>
+                  <option>BISE Rawalpindi</option>
+                  <option>BISE Lahore</option>
+                  <option>BISE Gujranwala / Sargodha / Multan</option>
+                  <option>BISE Peshawar / Abbottabad</option>
+                  <option>O-Levels (Cambridge / Edexcel)</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label">Contact Mobile / WhatsApp *</label>
+              <div class="input-with-icon">
+                <i class="fab fa-whatsapp"></i>
+                <input type="tel" id="contactPhone" class="form-input" placeholder="0300-1234567" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Matric Obtained Marks</label>
+              <div class="input-with-icon">
+                <i class="fas fa-star"></i>
+                <input type="number" id="matricMarksInput" class="form-input" placeholder="e.g. 980" min="400" max="1100">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-notice-box">
+            <i class="fas fa-shield-alt"></i>
+            <div>
+              <strong>Admissions Guarantee:</strong> No registration fee is charged online. Our admissions counselor will contact you within 24 hours for seat confirmation and interview schedule.
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-gold" style="width: 100%; font-size: 1.05rem; padding: 1rem;">
+            <i class="fas fa-paper-plane"></i> Submit Official Intermediate Admission Form
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <div class="brand-logo" style="margin-bottom: 1.25rem;">
+            <div class="logo-crest">R</div>
+            <div>
+              <div class="logo-name">Riphah <span>College</span></div>
+              <div class="logo-tagline">Higher Secondary Division</div>
+            </div>
+          </div>
+          <p style="color: var(--slate-400); font-size: 0.95rem; line-height: 1.6; max-width: 380px;">
+            Recognized Higher Secondary College affiliated with FBISE and BISE. Committed to academic distinction, ethical values, and entry test success.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title"><i class="fas fa-link text-gold"></i> Quick Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="#hero">Home Overview</a></li>
+            <li><a href="#programs">F.Sc & ICS Disciplines</a></li>
+            <li><a href="#calculator">Matric Scholarship Slab</a></li>
+            <li><a href="#campus">Science & Computer Labs</a></li>
+            <li><a href="#admissions">1st Year Admissions 2026</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title"><i class="fas fa-headset text-gold"></i> Admissions Office</h4>
+          <div class="footer-contact-info">
+            <span><i class="fas fa-map-marker-alt" style="color: var(--gold-400);"></i> Main Campus, Sector I-14, Islamabad</span>
+            <span><i class="fas fa-phone-alt" style="color: var(--gold-400);"></i> +92 (51) 111-747-424</span>
+            <span><i class="fas fa-envelope" style="color: var(--gold-400);"></i> admissions.intermediate@riphah.edu.pk</span>
+            <span><i class="fas fa-clock" style="color: var(--gold-400);"></i> Mon - Sat: 8:00 AM - 4:00 PM</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Riphah International College (HSSC). All Rights Reserved.</div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="#" onclick="showToast('Privacy policy loaded.'); return false;" style="color: var(--slate-400);">Privacy Policy</a>
+          <a href="#" onclick="showToast('Affiliation details: FBISE Islamabad & BISE Board.'); return false;" style="color: var(--slate-400);">Affiliation Details</a>
+          <a href="#" onclick="showToast('Prospectus 2026 download link generated.'); return false;" style="color: var(--gold-400);">Download Prospectus</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive Modal Container -->
+  <div class="modal-backdrop" id="modal" onclick="if(event.target===this) closeModal()">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeModal()" aria-label="Close modal"><i class="fas fa-times"></i></button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- JavaScript Application Logic -->
+  <script src="app.js"></script>
+</body>
+</html>
